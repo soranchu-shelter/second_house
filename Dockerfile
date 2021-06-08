@@ -13,6 +13,7 @@ RUN apt-get -y upgrade
 RUN apt-get install -y apt-utils
 RUN pip install --upgrade pip
 
+RUN pip install requests
 RUN pip install beautifulsoup4
 RUN pip install pandas
 
