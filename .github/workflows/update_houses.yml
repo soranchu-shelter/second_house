@@ -3,9 +3,9 @@ name: Export CI
 on:
   schedule:
     - cron: '5 6 1 */1 *'
-  push:
-    branches:
-      - master
+#  push:
+#    branches:
+#      - master
 
 jobs:
   update_houses:
